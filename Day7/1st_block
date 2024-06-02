@@ -1,0 +1,11 @@
+# Tried to rewrite the first block
+import random
+words = ["skynet","gensys"]
+
+word_to_guess = random.choice(words)
+print (word_to_guess)
+dash = len(word_to_guess)
+dash_list = []
+print (type(dash_list))
+for letters in word_to_guess : 
+    dash_list.extend( "_" )
